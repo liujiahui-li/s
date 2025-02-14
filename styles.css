@@ -1,0 +1,51 @@
+body{
+	background-color: #FF397A;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	color: #fff;
+	background-image: url("images/mini-hearth.png");
+	background-size: 75%;
+}
+
+.container{
+	text-align:center;
+}
+
+.title{
+	font-size: 28px;
+}
+
+.img-gif{
+	width: 280px;
+	border-radius: 8px;
+}
+
+button{
+	border: 0 none;
+	border-radius: 8px;
+	background-color: #FF0034;
+	color:#ffffff;
+	padding: 10px 30px;
+	margin: 0px 10px;
+	
+}
+
+.button_negative{
+	background-color: #fff;
+	color: #FF0034;
+}
+
+.button_reset{
+	width: 150px;
+	display: none;
+}
+
+.txt{
+	padding:20px;
+	font-size:18px;
+}
